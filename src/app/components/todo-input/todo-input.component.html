@@ -1,0 +1,28 @@
+<form (ngSubmit)="onSubmit()">
+
+    <div class="todo-input-wrapper" style="display: block">
+        <h5>Enter Your Next To-Do Task Here:</h5>
+
+        <div>
+            <input name="name" type="text" placeholder="Name of Task" [(ngModel)]="model.text" value={{todoText}} />
+        </div>
+
+        <div>
+            <input name="timeToComplete" type="text" placeholder="Time Needed to Complete It" required
+                [(ngModel)]="model.timeToComplete" value={{todoTimeToComplete}}>
+        </div>
+
+        <div>
+            <input name="itemsNeeded" type="text" placeholder="Necessary Items" required [(ngModel)]="model.itemsNeeded"
+                value={{todoItemsNeeded}}>
+        </div>
+
+        <div>
+            <textarea name="description" type="text" placeholder="Description of Task" required
+                [(ngModel)]="model.description" value={{todoDescription}}></textarea>
+        </div> <br>
+
+        <button class="btn" type="submit" value="submit">Submit Task</button>
+    </div>
+
+</form>

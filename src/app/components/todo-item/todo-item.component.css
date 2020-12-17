@@ -1,0 +1,23 @@
+.todoWrapper {
+  /* border: 2px solid black; */
+  /* width: 300px; */
+  /* text-align: left; */
+  margin-bottom: 10px;
+  /* float: right; */
+}
+
+.removeTodo {
+  margin-right: 20 px;
+  margin-bottom: 10px;
+  border-width: 2px;
+  border-radius: 3px;
+  border-style: solid;
+  padding: 10px;
+  border-color: white;
+  background-color: darkgray;
+}
+
+.todoWrapper {
+  /* float: right; */
+  background-color: darkgray;
+}

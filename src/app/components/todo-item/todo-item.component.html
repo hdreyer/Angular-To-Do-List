@@ -1,0 +1,11 @@
+<div class="todoWrapper" style="padding-left: 10px; padding-top: 10px">
+        <!-- bootstrap classes for columns aren't working -->
+
+        <p>Task: {{todo.text}} <br> Time Needed: {{todo.timeToComplete}} <br> Items Needed:
+                {{todo.itemsNeeded}} <br> Task
+                Description: {{todo.description}} <br></p>
+        <div class="buttonwrapper" style="padding-top: 10px;">
+                <button class="removeTodo" (click)="removeTodo()"> Remove Task </button>
+        </div>
+
+</div>
